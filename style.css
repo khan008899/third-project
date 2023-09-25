@@ -1,0 +1,50 @@
+
+.cv {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: lightblue;
+  }
+  
+  .cv-header {
+    text-align: center;
+  }
+  
+  .cv-header h1 {
+    margin-top: 0;
+  }
+  
+  .cv-main {
+    padding-top: 20px;
+  }
+  
+  .cv-section {
+    margin-bottom: 20px;
+  }
+  
+  .cv-section h2 {
+    margin-top: 0;
+  }
+  
+  .cv-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .cv-section li {
+    margin-bottom: 10px;
+  }
+  
+  .cv-footer {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 576px) {
+    .cv {
+      width: 100%;
+    }
+  }
+  
